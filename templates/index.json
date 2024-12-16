@@ -14,7 +14,6 @@
       "blocks": {
         "slide-1": {
           "type": "slide",
-          "disabled": true,
           "settings": {
             "image_desktop": "shopify://shop_images/vineyards.jpg",
             "url": "shopify://collections/henri-magnien",
@@ -41,7 +40,7 @@
             "enlarge_end_text": false,
             "countdown_hide_on_end": false,
             "use_custom_colors": false,
-            "count_color": "#fff",
+            "count_color": "#ffffff",
             "bg_color": "#070707",
             "bg_grad": ""
           }
@@ -74,7 +73,7 @@
             "enlarge_end_text": false,
             "countdown_hide_on_end": false,
             "use_custom_colors": false,
-            "count_color": "#fff",
+            "count_color": "#ffffff",
             "bg_color": "#070707",
             "bg_grad": ""
           }
@@ -85,7 +84,7 @@
         "slide_XBTMYG"
       ],
       "settings": {
-        "height_mode": "auto",
+        "height_mode": "fixed",
         "fixed_height_desktop": 600,
         "fixed_height_mobile": 350,
         "mobile_stacked": false,
@@ -107,60 +106,60 @@
     "collection-list": {
       "type": "collection-list",
       "blocks": {
-        "collection-0": {
+        "collection-6": {
           "type": "collection",
           "settings": {
-            "collection": ""
-          }
-        },
-        "collection-1": {
-          "type": "collection",
-          "settings": {
-            "collection": ""
-          }
-        },
-        "collection-2": {
-          "type": "collection",
-          "settings": {
-            "collection": ""
-          }
-        },
-        "collection-3": {
-          "type": "collection",
-          "settings": {
-            "collection": ""
-          }
-        },
-        "collection-4": {
-          "type": "collection",
-          "settings": {
-            "collection": ""
+            "collection": "egly-ouriet-champagne"
           }
         },
         "collection-5": {
           "type": "collection",
           "settings": {
-            "collection": ""
+            "collection": "donnhoff"
           }
         },
-        "collection-6": {
+        "collection-1": {
           "type": "collection",
           "settings": {
-            "collection": ""
+            "collection": "bouchard-pere-fils"
+          }
+        },
+        "collection-3": {
+          "type": "collection",
+          "settings": {
+            "collection": "clos-des-papes"
+          }
+        },
+        "collection-4": {
+          "type": "collection",
+          "settings": {
+            "collection": "dosnon-champagne"
+          }
+        },
+        "collection-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "chateau-de-beaucastel"
+          }
+        },
+        "collection-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "chacra"
           }
         }
       },
       "block_order": [
-        "collection-0",
+        "collection-6",
+        "collection-5",
         "collection-1",
-        "collection-2",
         "collection-3",
         "collection-4",
-        "collection-5",
-        "collection-6"
+        "collection-0",
+        "collection-2"
       ],
       "settings": {
-        "title": "Collections",
+        "title": "2025 Premium Wine Collections",
         "heading_align": "text-start",
         "button_label": "View all",
         "button_link": "",
@@ -173,58 +172,181 @@
         "full_width": true
       }
     },
-    "scrolling-banner": {
-      "type": "scrolling-banner",
+    "featured-collection": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Featured Producer",
+        "heading_align": "text-start",
+        "show_view_all": true,
+        "collection": "j-charpentier",
+        "layout": "carousel",
+        "card_size_mobile": "small",
+        "card_size": "small",
+        "products_to_show": 8,
+        "show_highlight_products": true,
+        "show_promo_info": true,
+        "image": "shopify://shop_images/j._charpentier.png",
+        "image_ratio": "fill",
+        "promo_title": "J. Charpentier Champagne",
+        "content": "<p>This is a sophisticated lineup from a Champagne house with a long, fascinating heritage predating both WW I & II. </p>",
+        "link_url": "shopify://collections/j-charpentier",
+        "button_label": "View Collection",
+        "color_scheme": "2",
+        "button_style": "btn btn--primary"
+      }
+    },
+    "media-grid": {
+      "type": "media-grid",
       "blocks": {
-        "scrolling-text-1": {
-          "type": "text",
+        "media-0": {
+          "type": "media",
           "settings": {
-            "text": "Scrolling Banner",
-            "link": "",
-            "font": "heading",
-            "heading_size": "h1"
+            "image": "shopify://shop_images/paul-jaboulet-aine-vineyards.jpg",
+            "link_url": "",
+            "columns": 2,
+            "rows": 2,
+            "subheading": "",
+            "title": "<p>2016 Jaboulet Crozes Hermitage Thalbert</p>",
+            "heading_size": "h4",
+            "button_label": "Read Blog",
+            "button_link": "shopify://blogs/the-wine-buzz-archives/2016-jaboulet-crozes-hermitage-thalbert",
+            "overlay_position": "justify-start items-end",
+            "text_alignment": "text-start",
+            "button_style": "btn btn--primary",
+            "tint_color": "#000000",
+            "tint_opacity": 40
           }
         },
-        "scrolling-icon-2": {
-          "type": "icon",
+        "media_FQnJGx": {
+          "type": "media",
           "settings": {
-            "icon": "star",
-            "icon_size": 64
+            "image": "shopify://shop_images/produttori-del-barbaresco_0741d39e-db25-42a2-90ee-d0c5cc87e7c5.jpg",
+            "link_url": "shopify://blogs/the-wine-buzz-archives/2021-produttori-del-barbaresco-barbaresco",
+            "columns": 1,
+            "rows": 1,
+            "subheading": "",
+            "title": "<p>2021 Produttori del Barbaresco Barbaresco</p>",
+            "heading_size": "h6",
+            "button_label": "",
+            "button_link": "",
+            "overlay_position": "justify-start items-end",
+            "text_alignment": "text-start",
+            "button_style": "btn btn--primary",
+            "tint_color": "#000000",
+            "tint_opacity": 40
           }
         },
-        "scrolling-text-3": {
-          "type": "text",
+        "media_c6kJ6J": {
+          "type": "media",
           "settings": {
-            "text": "Grab customers' attention",
-            "link": "",
-            "font": "body",
-            "heading_size": "h1"
+            "image": "shopify://shop_images/vignon-pere--fils.jpg",
+            "link_url": "shopify://blogs/the-wine-buzz-archives/2018-vignon-fils-champagne-reserve-marquises-grand-cru-extra-brut",
+            "columns": 1,
+            "rows": 1,
+            "subheading": "",
+            "title": "<p>2018 Vignon & Fils Champagne Réserve Marquises Grand Cru Extra Brut</p>",
+            "heading_size": "h6",
+            "button_label": "",
+            "button_link": "",
+            "overlay_position": "justify-start items-end",
+            "text_alignment": "text-start",
+            "button_style": "btn btn--primary",
+            "tint_color": "#000000",
+            "tint_opacity": 40
           }
         },
-        "scrolling-button-4": {
-          "type": "button",
+        "media_Vx6LBG": {
+          "type": "media",
           "settings": {
-            "button_label": "Optional Button",
-            "button_link": "/",
-            "button_style": "btn btn--primary"
+            "image": "shopify://shop_images/2022-domaine-joblot.jpg",
+            "link_url": "",
+            "columns": 2,
+            "rows": 1,
+            "subheading": "",
+            "title": "<p>2022 Domaine Bzikot BourgogneBlanc & Rouge</p>",
+            "heading_size": "h4",
+            "button_label": "Read Blog",
+            "button_link": "shopify://blogs/the-wine-buzz-archives/2022-domaine-bzikot-bourgogneblanc-rouge",
+            "overlay_position": "justify-start items-end",
+            "text_alignment": "text-start",
+            "button_style": "btn btn--primary",
+            "tint_color": "#000000",
+            "tint_opacity": 40
           }
         }
       },
       "block_order": [
-        "scrolling-text-1",
-        "scrolling-icon-2",
-        "scrolling-text-3",
-        "scrolling-button-4"
+        "media-0",
+        "media_FQnJGx",
+        "media_c6kJ6J",
+        "media_Vx6LBG"
       ],
       "settings": {
-        "section_height": "medium",
-        "spacing": 40,
-        "speed": 24,
-        "direction": "normal",
-        "pausable": true,
-        "color_scheme": "1",
-        "dividers": "none",
-        "prevent_animation": false
+        "title": "The Wine Chronicles: Unveiling Stories from the Vineyards 🍇",
+        "heading_align": "text-start",
+        "button_label": "View All",
+        "button_link": "shopify://blogs/the-wine-buzz-archives",
+        "gallery_cols_max": 4,
+        "mobile_carousel": false,
+        "gallery_cols_min": "1",
+        "fixed_height_desktop": 180,
+        "fixed_height_mobile": 300,
+        "section_color_scheme": "none",
+        "color_scheme": "white",
+        "transparent_content_color": "#ffffff"
+      }
+    },
+    "product-comparison-grid": {
+      "type": "product-comparison-grid",
+      "blocks": {
+        "comparison-product-1": {
+          "type": "product",
+          "settings": {
+            "show_image": true,
+            "show_title": true,
+            "show_button": true
+          }
+        },
+        "comparison-vendor-2": {
+          "type": "vendor",
+          "settings": {}
+        },
+        "comparison-price-3": {
+          "type": "price",
+          "settings": {}
+        },
+        "comparison-description-4": {
+          "type": "description",
+          "settings": {
+            "truncate_description": true,
+            "words_to_show": 24
+          }
+        }
+      },
+      "block_order": [
+        "comparison-product-1",
+        "comparison-vendor-2",
+        "comparison-price-3",
+        "comparison-description-4"
+      ],
+      "settings": {
+        "heading": "Vineyard Experience 🌿",
+        "text": "<p>Immerse yourself in an unforgettable journey through the lush landscapes of a carefully curated vineyard, where exceptional grape varieties and winemaking artistry come together to create unique flavors and aromas.</p>",
+        "heading_align": "text-center",
+        "view_more_label": "View more",
+        "view_more_link": "",
+        "product_list": [
+          "2013-massolino-barolo-parussi",
+          "2012-galardi-terra-di-lavoro-roccamonfin-igt",
+          "2017-paolo-bea-pipparello-montefalco-rosso-riserva",
+          "2018-meerlust-rubicon"
+        ],
+        "empty_field_text": "-",
+        "image_ratio": "shortest",
+        "image_crop": "center",
+        "num_rows": 0,
+        "color_scheme": "none",
+        "highlight_row": false
       }
     },
     "countdown-timer": {
@@ -233,7 +355,7 @@
         "countdown-heading-0": {
           "type": "heading",
           "settings": {
-            "heading": "Countdown timer",
+            "heading": "Happy New Year Sale!",
             "heading_size": "h2",
             "heading_h1": false
           }
@@ -241,14 +363,14 @@
         "countdown-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Create urgency around an offer or event!</p>",
+            "text": "<p>Discover the Perfect Pour: Curated Wines for Every Palate 🍷</p><p>Code: NEW2025</p>",
             "enlarge_text": true
           }
         },
         "countdown-countdown-2": {
           "type": "countdown",
           "settings": {
-            "end_date": "",
+            "end_date": "2025-01-31",
             "end_time": "",
             "end_text": "",
             "enlarge_end_text": false,
@@ -270,12 +392,45 @@
         "mob_center_text": false,
         "countdown_size": "24",
         "use_custom_colors": false,
-        "count_color": "#fff",
+        "count_color": "#ffffff",
         "bg_color": "#070707",
         "color_scheme": "2",
         "full_width": true,
         "tint_color": "#000000",
         "tint_opacity": 20
+      }
+    },
+    "video": {
+      "type": "video",
+      "blocks": {
+        "video-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "BURGUNDY'S COTE D'OR - WINE IN 10",
+            "heading_size": "h1",
+            "heading_h1": false
+          }
+        },
+        "video-text-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The Côte d’Or is in the middle of Burgundy and is the center for high-quality wines in the region. </p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "video-heading-1",
+        "video-text-2"
+      ],
+      "settings": {
+        "video_external": "https://www.youtube.com/watch?v=85tq1Rz2alc",
+        "video_description": "",
+        "poster_image": "shopify://shop_images/stephane-vignon-and-his-staff.jpg",
+        "video_size": "md",
+        "video_autoplay": false,
+        "text_align": "text-center",
+        "color_scheme": "1"
       }
     },
     "promo-grid": {
@@ -384,6 +539,7 @@
         "promo-media-2",
         "promo-media-3"
       ],
+      "disabled": true,
       "settings": {
         "title": "Promo grid",
         "heading_align": "text-start",
@@ -396,136 +552,6 @@
         "fixed_height_mobile": 280,
         "text_overlay_font": "body",
         "color_scheme": "default"
-      }
-    },
-    "image-banner": {
-      "type": "image-banner",
-      "blocks": {
-        "banner-heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "Image banner",
-            "heading_size": "h1",
-            "heading_h1": false
-          }
-        },
-        "banner-text": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>",
-            "enlarge_text": true
-          }
-        },
-        "banner-button": {
-          "type": "button",
-          "settings": {
-            "button_1_label": "Optional Button",
-            "button_1_link": "/",
-            "button_1_style": "btn btn--primary",
-            "button_2_label": "Optional Button",
-            "button_2_link": "/",
-            "button_2_style": "btn btn--primary"
-          }
-        }
-      },
-      "block_order": [
-        "banner-heading",
-        "banner-text",
-        "banner-button"
-      ],
-      "settings": {
-        "url": "",
-        "height_mode": "auto",
-        "fixed_height_desktop": 600,
-        "fixed_height_mobile": 350,
-        "overlay_position": "justify-center items-center",
-        "overlay_text_align": "text-center",
-        "mob_center_text": false,
-        "mobile_stacked": false,
-        "color_scheme": "white",
-        "full_width": true,
-        "transparent_content_color": "#ffffff",
-        "tint_color": "#000000",
-        "tint_opacity": 40,
-        "prevent_animation": false
-      }
-    },
-    "featured-collection": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Featured collection",
-        "heading_align": "text-start",
-        "show_view_all": true,
-        "collection": "",
-        "layout": "carousel",
-        "card_size_mobile": "small",
-        "card_size": "small",
-        "products_to_show": 8,
-        "show_highlight_products": true,
-        "show_promo_info": true,
-        "image_ratio": "fill",
-        "promo_title": "A headline to grab attention",
-        "content": "<p>Use this card with an image to highlight your collections or introduce a promotion.</p>",
-        "link_url": "/",
-        "button_label": "Optional Button",
-        "color_scheme": "2",
-        "button_style": "btn btn--primary"
-      }
-    },
-    "product-features": {
-      "type": "product-features",
-      "blocks": {
-        "feature-0": {
-          "type": "feature",
-          "settings": {
-            "heading": "Feature name",
-            "text": "<p>Add some text describing the product feature.</p>",
-            "content_align": "text-start",
-            "hotspot_x": 28,
-            "hotspot_y": 38
-          }
-        },
-        "feature-1": {
-          "type": "feature",
-          "settings": {
-            "heading": "Feature name",
-            "text": "<p>Add some text describing the product feature.</p>",
-            "content_align": "text-start",
-            "hotspot_x": 60,
-            "hotspot_y": 23
-          }
-        },
-        "feature-2": {
-          "type": "feature",
-          "settings": {
-            "heading": "Feature name",
-            "text": "<p>Add some text describing the product feature.</p>",
-            "content_align": "text-start",
-            "hotspot_x": 73,
-            "hotspot_y": 54
-          }
-        }
-      },
-      "block_order": [
-        "feature-0",
-        "feature-1",
-        "feature-2"
-      ],
-      "settings": {
-        "product": "",
-        "show_content": true,
-        "layout": "text_first",
-        "text_align": "text-center",
-        "mob_center_text": false,
-        "heading_size": "h1",
-        "enlarge_text": false,
-        "title": "Product features",
-        "description": "<p>Use this section to highlight specific product features to your customers.</p>",
-        "button_label": "",
-        "button_link": "",
-        "hotspot_color": "#070707",
-        "color_scheme": "none",
-        "button_style": "btn btn--primary"
       }
     },
     "media-with-text": {
@@ -560,6 +586,7 @@
         "media-with-text-text-1",
         "media-with-text-button-2"
       ],
+      "disabled": true,
       "settings": {
         "video_external": "",
         "video_description": "",
@@ -571,53 +598,6 @@
         "text_align": "text-start",
         "color_scheme": "none",
         "only_content_color_scheme": false
-      }
-    },
-    "shoppable-image": {
-      "type": "shoppable-image",
-      "blocks": {
-        "hotspot-0": {
-          "type": "hotspot",
-          "settings": {
-            "product": "",
-            "hotspot_x": 28,
-            "hotspot_y": 38
-          }
-        },
-        "hotspot-1": {
-          "type": "hotspot",
-          "settings": {
-            "product": "",
-            "hotspot_x": 60,
-            "hotspot_y": 23
-          }
-        },
-        "hotspot-2": {
-          "type": "hotspot",
-          "settings": {
-            "product": "",
-            "hotspot_x": 73,
-            "hotspot_y": 54
-          }
-        }
-      },
-      "block_order": [
-        "hotspot-0",
-        "hotspot-1",
-        "hotspot-2"
-      ],
-      "settings": {
-        "layout": "image_first",
-        "show_vendor": true,
-        "show_content": true,
-        "mob_center_text": false,
-        "heading": "Shoppable image",
-        "text": "<p>Create a Shop the Look section to assist with upselling or helping customers with purchasing complementary products.</p>",
-        "button_label": "Optional button",
-        "button_link": "/",
-        "hotspot_color": "#070707",
-        "color_scheme": "2",
-        "button_style": "btn btn--primary"
       }
     },
     "link-lists": {
@@ -686,6 +666,7 @@
         "links-column-3",
         "links-column-4"
       ],
+      "disabled": true,
       "settings": {
         "title": "Link lists",
         "heading_align": "text-start",
@@ -728,7 +709,7 @@
           "type": "description",
           "settings": {
             "show_as_collapsible_content": false,
-            "text": "<p>Pair some text with a product to highlight features.</p>",
+            "text": "<p>An elegant as well as powerful effort, this dense ruby/purple-colored 1998 reveals notes of plums, black raspberries, vanillin, minerals, licorice, and spice. </p><p>Exceptionally rich with an outstanding texture, this medium to full-bodied wine possesses a distinctive, individualistic style, largely because of its floral, blueberry fruit flavors. Although accessible, it will age for two decades. Anticipated maturity: 2002-2020.</p>",
             "icon": "none",
             "open": false
           }
@@ -780,7 +761,7 @@
         "divider-9"
       ],
       "settings": {
-        "product": "",
+        "product": "1998-quinault-lenclos",
         "select_first_variant": true,
         "media_ratio": "natural",
         "media_crop": "none",
@@ -790,56 +771,8 @@
         "zoom_mode": "hover",
         "hover_zoom": "large",
         "color_scheme": "1",
-        "border_color": "transparent",
+        "border_color": "rgba(0,0,0,0)",
         "bg_color": "#f4f4f4"
-      }
-    },
-    "product-comparison-grid": {
-      "type": "product-comparison-grid",
-      "blocks": {
-        "comparison-product-1": {
-          "type": "product",
-          "settings": {
-            "show_image": true,
-            "show_title": true,
-            "show_button": true
-          }
-        },
-        "comparison-vendor-2": {
-          "type": "vendor",
-          "settings": {}
-        },
-        "comparison-price-3": {
-          "type": "price",
-          "settings": {}
-        },
-        "comparison-description-4": {
-          "type": "description",
-          "settings": {
-            "truncate_description": false,
-            "words_to_show": 20
-          }
-        }
-      },
-      "block_order": [
-        "comparison-product-1",
-        "comparison-vendor-2",
-        "comparison-price-3",
-        "comparison-description-4"
-      ],
-      "settings": {
-        "heading": "Product comparison grid",
-        "text": "<p>Add content here to explain a bit about the range of products on offer and which ones may be most suitable for your customers.</p>",
-        "heading_align": "text-center",
-        "view_more_label": "View more",
-        "view_more_link": "",
-        "product_list": [],
-        "empty_field_text": "-",
-        "image_ratio": "shortest",
-        "image_crop": "center",
-        "num_rows": 0,
-        "color_scheme": "none",
-        "highlight_row": false
       }
     },
     "multi-column": {
@@ -896,6 +829,7 @@
         "multi-column-2",
         "multi-column-3"
       ],
+      "disabled": true,
       "settings": {
         "title": "Multi-column",
         "heading_align": "text-start",
@@ -909,153 +843,20 @@
         "color_scheme": "1",
         "button_style": "btn btn--secondary"
       }
-    },
-    "video": {
-      "type": "video",
-      "blocks": {
-        "video-heading-1": {
-          "type": "heading",
-          "settings": {
-            "heading": "Video",
-            "heading_size": "h1",
-            "heading_h1": false
-          }
-        },
-        "video-text-2": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Add text to a video to showcase a detail of your brand or product line.</p>",
-            "enlarge_text": true
-          }
-        }
-      },
-      "block_order": [
-        "video-heading-1",
-        "video-text-2"
-      ],
-      "settings": {
-        "video_external": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-        "video_description": "",
-        "video_size": "md",
-        "video_autoplay": true,
-        "text_align": "text-center",
-        "color_scheme": "1"
-      }
-    },
-    "media-grid": {
-      "type": "media-grid",
-      "blocks": {
-        "media-0": {
-          "type": "media",
-          "settings": {
-            "link_url": "",
-            "columns": 2,
-            "rows": 2,
-            "subheading": "",
-            "title": "<p>Media heading</p>",
-            "heading_size": "h4",
-            "button_label": "Optional Button",
-            "button_link": "/",
-            "overlay_position": "justify-start items-end",
-            "text_alignment": "text-start",
-            "button_style": "btn btn--primary",
-            "tint_color": "#000000",
-            "tint_opacity": 40
-          }
-        },
-        "media-1": {
-          "type": "media",
-          "settings": {
-            "link_url": "",
-            "columns": 1,
-            "rows": 1,
-            "subheading": "",
-            "title": "<p>Media heading</p>",
-            "heading_size": "h5",
-            "button_label": "Optional Button",
-            "button_link": "/",
-            "overlay_position": "justify-start items-end",
-            "text_alignment": "text-start",
-            "button_style": "btn btn--primary",
-            "tint_color": "#000000",
-            "tint_opacity": 40
-          }
-        },
-        "media-2": {
-          "type": "media",
-          "settings": {
-            "link_url": "",
-            "columns": 1,
-            "rows": 1,
-            "subheading": "",
-            "title": "<p>Media heading</p>",
-            "heading_size": "h5",
-            "button_label": "Optional Button",
-            "button_link": "/",
-            "overlay_position": "justify-start items-end",
-            "text_alignment": "text-start",
-            "button_style": "btn btn--primary",
-            "tint_color": "#000000",
-            "tint_opacity": 40
-          }
-        },
-        "media-3": {
-          "type": "media",
-          "settings": {
-            "link_url": "",
-            "columns": 2,
-            "rows": 1,
-            "subheading": "",
-            "title": "<p>Media heading</p>",
-            "heading_size": "h5",
-            "button_label": "Optional Button",
-            "button_link": "/",
-            "overlay_position": "justify-start items-end",
-            "text_alignment": "text-start",
-            "button_style": "btn btn--primary",
-            "tint_color": "#000000",
-            "tint_opacity": 40
-          }
-        }
-      },
-      "block_order": [
-        "media-0",
-        "media-1",
-        "media-2",
-        "media-3"
-      ],
-      "settings": {
-        "title": "Media grid",
-        "heading_align": "text-start",
-        "button_label": "View All",
-        "button_link": "/",
-        "gallery_cols_max": 4,
-        "mobile_carousel": false,
-        "gallery_cols_min": "1",
-        "fixed_height_desktop": 180,
-        "fixed_height_mobile": 300,
-        "section_color_scheme": "none",
-        "color_scheme": "white",
-        "transparent_content_color": "#ffffff"
-      }
     }
   },
   "order": [
     "slideshow",
     "collection-list",
-    "scrolling-banner",
-    "countdown-timer",
-    "promo-grid",
-    "image-banner",
     "featured-collection",
-    "product-features",
+    "media-grid",
+    "product-comparison-grid",
+    "countdown-timer",
+    "video",
+    "promo-grid",
     "media-with-text",
-    "shoppable-image",
     "link-lists",
     "featured-product",
-    "product-comparison-grid",
-    "multi-column",
-    "video",
-    "media-grid"
+    "multi-column"
   ]
 }

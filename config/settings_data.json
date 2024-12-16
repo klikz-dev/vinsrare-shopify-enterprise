@@ -355,7 +355,7 @@
     "body_font": "dm_sans_n4",
     "navigation_font": "dm_sans_n7",
     "max_page_width": 1260,
-    "section_gap": "48",
+    "section_gap": 48,
     "input_button_border_width": "2",
     "input_button_border_radius": 26,
     "slider_show_arrows": "never",
