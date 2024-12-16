@@ -14,6 +14,7 @@
       "blocks": {
         "slide-1": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image_desktop": "shopify://shop_images/vineyards.jpg",
             "url": "shopify://collections/henri-magnien",
@@ -45,24 +46,24 @@
             "bg_grad": ""
           }
         },
-        "slide-2": {
+        "slide_XBTMYG": {
           "type": "slide",
-          "disabled": true,
           "settings": {
-            "url": "",
-            "overlay_position": "justify-center items-center",
-            "overlay_text_align": "text-center",
+            "image_desktop": "shopify://shop_images/casanova-di-neri.jpg",
+            "url": "shopify://collections/jean-marc-pillot",
+            "overlay_position": "justify-end items-center",
+            "overlay_text_align": "text-start",
             "mob_center_text": false,
-            "subheading": "Subheading",
-            "heading": "Slideshow",
+            "subheading": "Featured Collection",
+            "heading": "Jean-Marc Pillot",
             "heading_size": "h0",
             "heading_h1": false,
-            "text": "<p>Share announcements and information with your customers and welcome them to your store.</p>",
+            "text": "<p>With his impressive array of holdings throughout Chassagne-Montrachet, complemented by parcels in Puligny-Montrachet, Santenay, Montagny, and Rully, Jean-Marc Pillot is among the most important growers producing compelling White Burgundy.</p>",
             "enlarge_text": true,
-            "button_1_label": "Optional button",
-            "button_1_link": "",
-            "button_1_style": "btn btn--primary",
-            "button_2_label": "Optional button",
+            "button_1_label": "Shop Now",
+            "button_1_link": "shopify://collections/jean-marc-pillot",
+            "button_1_style": "btn btn--secondary",
+            "button_2_label": "",
             "button_2_link": "",
             "button_2_style": "btn btn--primary",
             "transparent_content_color": "#ffffff",
@@ -81,7 +82,7 @@
       },
       "block_order": [
         "slide-1",
-        "slide-2"
+        "slide_XBTMYG"
       ],
       "settings": {
         "height_mode": "auto",
